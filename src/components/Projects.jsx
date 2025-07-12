@@ -58,7 +58,6 @@ const projects = [
       "TensorFlow",
       "Scikit-learn for tone classification",
     ],
-    link: "",
   },
 ];
 
