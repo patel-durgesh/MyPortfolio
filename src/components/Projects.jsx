@@ -77,7 +77,7 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-24 object-contain rounded-full mb-4"
+                className="w-full h-24 object-contain rounded-md mb-4"
               />
 
               <h3 className="text-xl font-semibold mb-2">
