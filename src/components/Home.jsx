@@ -45,7 +45,7 @@ const Home = () => (
       <img
         src={profilePic}
         alt="Profile"
-        className="w-56 h-56 rounded-full mx-auto shadow-lg animate-float "
+        className="w-56 h-56 rounded-full mx-auto object-cover shadow-lg animate-float "
       />
     </div>
   </section>
