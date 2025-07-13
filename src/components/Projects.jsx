@@ -1,9 +1,9 @@
 import React from "react";
-import L1 from "../../public/L1.jpg";
-import L2 from "../../public/L2.jpg";
-import L3 from "../../public/L3.jpg";
-import L4 from "../../public/L4.jpg";
-import L5 from "../../public/L5.jpg";
+import L1 from "../assets/L1.jpg";
+import L2 from "../assets/L2.jpg";
+import L3 from "../assets/L3.jpg";
+import L4 from "../assets/L4.jpg";
+import L5 from "../assets/L5.jpg";
 
 const projects = [
   {

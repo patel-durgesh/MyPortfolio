@@ -1,7 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { FiDownload } from "react-icons/fi";
-import profilePic from "../../public/profile.jpg";
+import profilePic from "../assets/profile.jpg";
 
 const Home = () => (
   <section
