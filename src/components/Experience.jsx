@@ -43,7 +43,7 @@ let experienceYears = yearDiff + monthDiff / 12;
 const Experience = () => (
   <section id="experience" className="py-24">
     <h2 className="text-3xl font-bold mb-6">
-      Experience ({experienceYears})yrs
+      Experience [{experienceYears}]yrs
     </h2>
     <div className="flex space-x-6 overflow-x-auto pb-4 snap-x">
       {experiences.map((exp, i) => (

@@ -5,7 +5,6 @@ import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Preloader from "./components/Preloader.jsx";
-import Welcome from "./components/Welcome.jsx";
 import { useEffect, useState } from "react";
 
 function App() {
