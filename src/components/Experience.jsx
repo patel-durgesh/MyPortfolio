@@ -3,16 +3,16 @@ import React, { useState } from "react";
 const experiences = [
   {
     title: "Mern Stack Developer at Idevify Solutions",
-    period: "01/2024 - 07/2024",
+    period: "01/2024 - 02/2025",
     details:
       "Full-stack developer with hands-on experience in the MERN stack (MongoDB, Express.js, React, Node.js). Skilled in solving complex problems, leading development teams, and communicating effectively with clients to deliver tailored solutions. Confident in handling end-to-end deployment processes and building scalable, production-ready applications.",
   },
-  {
-    title: "Mern Stack Developer at KeyLong System",
-    period: "07/2024 - 02/2025",
-    details:
-      "I specialize in the MERN stack and enjoy working closely with clients to understand their needs. Problem-solving is one of my core strengths, and I thrive on turning challenges into clean, effective solutions.",
-  },
+  // {
+  //   title: "Mern Stack Developer at KeyLong System",
+  //   period: "07/2024 - 02/2025",
+  //   details:
+  //     "I specialize in the MERN stack and enjoy working closely with clients to understand their needs. Problem-solving is one of my core strengths, and I thrive on turning challenges into clean, effective solutions.",
+  // },
   {
     title: "Software Engineer at TCS",
     period: "03/2025 – Present",
@@ -43,7 +43,7 @@ let experienceYears = yearDiff + monthDiff / 12;
 const Experience = () => (
   <section id="experience" className="py-24">
     <h2 className="text-3xl font-bold mb-6">
-      Experience [{experienceYears}]yrs
+      Experience {experienceYears.toFixed(1)}yrs
     </h2>
     <div className="flex space-x-6 overflow-x-auto pb-4 snap-x">
       {experiences.map((exp, i) => (
